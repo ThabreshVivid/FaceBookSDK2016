@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
 
 @interface ViewController : UIViewController
 
+- (IBAction)ClickLogin:(id)sender;
 
 @end
 
